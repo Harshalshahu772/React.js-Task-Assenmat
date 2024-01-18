@@ -4,6 +4,7 @@ const NavberComponet = () => {
   return (
     <Wrapper>
       <div className="container">
+        <div className="col-mx-3-mt-2">
         <nav className="navbar">
           <div className="navbar-left">
             <svg
@@ -134,6 +135,7 @@ const NavberComponet = () => {
             </a>
           </div>
         </nav>
+        </div>
       </div>
     </Wrapper>
   );

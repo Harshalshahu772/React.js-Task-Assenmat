@@ -3,7 +3,7 @@ import styled from "styled-components";
 const FooterComponent = () => {
   return (
     <Wrapper>
-      <div className="container parnt-Conatiner">
+      <div className="container parnt-Conatiner mt-5">
         <div className="grid-container-cont">
           <div className="name-container">
             <p className="name-text-one">Be the first to know</p>
@@ -306,8 +306,7 @@ const Wrapper = styled.section`
     margin: 0 auto;
     padding: 20px;
     box-sizing: border-box;
-    position: absolute;
-    margin-top: 54rem;
+  
   }
   .parent-Container {
     background: #000;

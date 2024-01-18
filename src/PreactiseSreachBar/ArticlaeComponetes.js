@@ -4,28 +4,22 @@ import styled from "styled-components";
 const ArticleComponent = () => {
   return (
     <Wrapper>
-      <div className="container">
-        <p className="main-text-one">Discover our products</p>
+      <div className="container mt-5 mb-5 w-50 ">
+   <p className="main-text-one">Discover our products</p>
+   <div className="container w-20">
         <p className="main-text-two">
           Lorem ipsum dolor sit amet consectetur. Amet est posuere rhoncus
           scelerisque. Dolor integer scelerisque nibh amet mi ut elementum
           dolor.
         </p>
+   </div>
       </div>
     </Wrapper>
   );
 };
 
 const Wrapper = styled.section`
-  .container {
-    width: 80%; /* Adjust the width as needed */
-    max-width: 1200px; /* Set a maximum width for better responsiveness */
-    margin: auto;
-
-    padding: 20px; /* Add padding for better spacing */
-    box-sizing: border-box; /* Include padding and border in the element's total width and height */
-    margin-top: 42px;
-  }
+ 
 
   .main-text-two {
     color: var(--Text-Text, #252020);
@@ -34,10 +28,8 @@ const Wrapper = styled.section`
     font-size: 18px;
     font-weight: 400;
     line-height: 1.5;
-    width: 57%; /* Adjust the width to take full container width */
+   
 
-    margin: auto;
-    padding: 10px; /* Add padding for better spacing */
   }
 
   .main-text-one {
