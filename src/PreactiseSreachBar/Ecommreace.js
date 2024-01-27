@@ -5,74 +5,139 @@ import ArticlaeComponetes from "./ArticlaeComponetes";
 const DataArray = [
   {
     id: 1,
-    imageSrc: "image/anj.jpg",
+    imageSrc: "image/men1.webp",
     category: "Men",
     title: "Card title 1",
     description: "Some quick example text for card 1.",
   },
   {
     id: 2,
-    imageSrc: "image/img-1.jpg",
-    category: "women",
+    imageSrc: "image/men2.webp",
+    category: "Men",
     title: "Card title 2",
     description: "Some quick example text for card 2.",
   },
   {
     id: 3,
-    imageSrc: "image/img-2.jpg",
-    category: "chilrean",
-    title: "Card title 2",
+    imageSrc: "image/men3.webp",
+    category: "Men",
+    title: "Card title 3",
     description: "Some quick example text for card 2.",
   },
   {
     id: 4,
-    imageSrc: "image/img-3.jpg",
-    category: "women",
-    title: "Card title 2",
+    imageSrc: "image/men4.webp",
+    category: "Men",
+    title: "Card title 4",
     description: "Some quick example text for card 2.",
   },
   {
     id: 5,
-    imageSrc: "image/img-4.jpg",
-    category: "women",
-    title: "Card title 2",
+    imageSrc: "image/men5.webp",
+    category: "Men",
+    title: "Card title 5",
     description: "Some quick example text for card 2.",
   },
   {
     id: 6,
-    imageSrc: "image/img-5.jpg",
-    title: "Card title 2",
-    category: "Men",
+    imageSrc: "image/Women1.webp",
+    category: "women",
+    title: "Card title 6",
     description: "Some quick example text for card 2.",
   },
   {
     id: 7,
-    imageSrc: "image/img-6.jpg",
-    title: "Card title 2",
-    category: "chilrean",
+    imageSrc: "image/Women2.webp",
+    category: "women",
+    title: "Card title 7",
     description: "Some quick example text for card 2.",
   },
   {
     id: 8,
-    imageSrc: "image/img-7.jpg",
-    category: "chilrean",
-    title: "Card title 2",
+    imageSrc: "image/Women3.webp",
+    category: "women",
+    title: "Card title 8",
     description: "Some quick example text for card 2.",
   },
   {
     id: 9,
-    imageSrc: "image/img-8.jpg",
-    category: "Men",
-    title: "Card title 2",
+    imageSrc: "image/Women4.webp",
+    category: "women",
+    title: "Card title 9",
     description: "Some quick example text for card 2.",
   },
   {
     id: 10,
-    imageSrc: "image/img-9.jpg",
-    category: "chilrean",
-    title: "Card title 2",
+    imageSrc: "image/Women5.webp",
+    category: "women",
+    title: "Card title 10",
     description: "Some quick example text for card 2.",
   },
+  {
+    id: 11,
+    imageSrc: "image/Women6.webp",
+    category: "women",
+    title: "Card title 11",
+    description: "Some quick example text for card 2.",
+  },
+  {
+    id: 12,
+    imageSrc: "image/Women7.webp",
+    category: "women",
+    title: "Card title 12",
+    description: "Some quick example text for card 2.",
+  },
+  {
+    id: 13,
+    imageSrc: "image/Women8.webp",
+    category: "women",
+    title: "Card title 13",
+    description: "Some quick example text for card 2.",
+  },
+  {
+    id: 14,
+    imageSrc: "image/Women8.webp",
+    category: "women",
+    title: "Card title 13",
+    description: "Some quick example text for card 2.",
+  },
+  {
+    id: 15,
+    imageSrc: "image/chilren1.webp",
+    category: "chilrean",
+    title: "Card title 15",
+    description: "Some quick example text for card 2.",
+  },
+  {
+    id: 16,
+    imageSrc: "image/chilren2.webp",
+    category: "chilrean",
+    title: "Card title 16",
+    description: "Some quick example text for card 2.",
+  },
+  {
+    id: 17,
+    imageSrc: "image/chilren3.webp",
+    category: "chilrean",
+    title: "Card title 17",
+    description: "Some quick example text for card 2.",
+  },
+  {
+    id: 18,
+    imageSrc: "image/chilren4.webp",
+    category: "chilrean",
+    title: "Card title 18",
+    description: "Some quick example text for card 2.",
+  },
+  {
+    id: 19,
+    imageSrc: "image/chilren5.webp",
+    category: "chilrean",
+    title: "Card title 18",
+    description: "Some quick example text for card 2.",
+  },
+
+
 
 
   // Add more objects as needed
@@ -110,10 +175,10 @@ const EcommarceWeb = () => {
               onClick={() => setShow(!show)}
               type="button"
             >
-              Hiiden Elemant
+        Show Fliter
             </button>
             <button className="btn btn-sm btn-outline-secondary" type="button">
-              Smaller button
+              Ship Now
             </button>
           </form>
         </nav>
@@ -137,6 +202,7 @@ const EcommarceWeb = () => {
               >
                 chilren
               </button>
+
 
 
             </div>
